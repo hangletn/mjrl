@@ -63,7 +63,7 @@ def do_rollout(
         agent_infos = []
         env_infos = []
 
-        o = env.reset()
+        o, _ = env.reset()
         done = False
         t = 0
 
